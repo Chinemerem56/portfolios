@@ -1,0 +1,30 @@
+@media screen and (max-width: 920px) {
+      #portfolio {
+           height:80vh;
+           margin-bottom:6rem;
+      }
+      
+      .section-pic img{
+            flex-wrap:wrap;
+      }
+}
+
+
+
+@media screen and (max-width: 893px) {
+      #desktop-link {
+            display:none;
+      }
+      #hamburger-nav{
+            display:flex;
+      }
+      #service,
+      .service-details-container{
+            margin-top:2rem;
+      }
+      #portfolio,.section-p{
+            display:block;
+            padding-top:150px;
+            justify-content:space-between;
+      }
+}
