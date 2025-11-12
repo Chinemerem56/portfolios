@@ -1,0 +1,56 @@
+@media screen and (max-width: 1786px) {
+      #portfolio{
+            height:87vh;
+            margin-bottom:4rem;
+      } 
+       .section-p{
+            flex-wrap:wrap;
+       }
+      
+     
+}
+
+@media screen and (max-width: 893px) {
+      #desktop-link {
+            display:none;    
+      }
+      #hamburger-nav{
+            display:flex;
+      }
+      
+    #service,
+    .service-details-container{
+      margin-top:2rem;
+    } 
+    #portfolio,
+    .section-p{
+      display:block;
+    }
+    section,
+    .section-p{
+      height:fit-content;
+    }
+    section{
+      margin:0 5%;
+    }
+ .section-p img{
+      width:275px;
+      height:275px;
+      
+ }
+}
+
+@media screen and (max-width: 600px){
+     #about,
+     .about-container{
+         display:block;
+         height:170vh;
+     }
+     .profile img{
+      padding-top:2rem;
+       height:370px;
+       width:320px;
+     }
+    
+     
+}
